@@ -424,7 +424,20 @@ curso c1=new curso("programacion",lista);
 c1.mostrarTodo();}}
 
 ## 5. Plan de pruebas del sistema
-Añade aquí lo que hicimos para diseñar las pruebas
+
+Requisito funcional: El sistema debe permitir a un nuevo usuario crear una cuenta,
+validando que el correo no exista y enviando un correo de verificación para activar el perfil.
+
+				Pruebas propuestas:
+
+| Tipo de prueba   | Entrada / acción | Resultado |
+| ------------- | ------------- | ---------------|
+| Funcional | Usuario introduce un correo de verificación al perfil |El sistema recibe el correo de verificación |
+| Funcional / Negativa  | Usuario introduce un correo de verificación con datos erróneos  | El sistema muestra un mensaje de error indicando que los datos son erróneos |
+
+
+
+
 
 ### 5.1. Pruebas de aceptación
 Nada por aquí 
